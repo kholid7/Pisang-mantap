@@ -306,3 +306,15 @@ html {
     color: #B8860B;
     font-weight: bold;
 }
+@media (max-width: 768px) {
+  /* Aturan untuk layar kecil, seperti HP */
+  .container {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
